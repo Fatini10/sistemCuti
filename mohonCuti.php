@@ -70,6 +70,7 @@ include('header.php');
 
     <div class="container my-5">
 
+
 <!-- Butang kembali di luar kotak dan ke kanan -->
 <div class="mb-3 text-end">
     <a href="pelajar.php" class="btn btn-primary">Kembali</a>
@@ -79,7 +80,14 @@ include('header.php');
     <h1 class="mb-4">Borang Permohonan Cuti</h1>
     <!-- borang bermula di sini -->
 
+    <header class="d-flex justify-content-between my-4">
+        <h1>Borang Permohonan Cuti</h1>
+        <div>
+            <a href="pelajar.php" class="btn btn-primary">Kembali</a>
+        </div>
+    </header>
 
+    <div class="card shadow p-4">
         <form method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="nama" class="form-label">Nama Penuh</label>
@@ -108,7 +116,7 @@ include('header.php');
             </div>
 
             <div class="mb-3">
-                <label for="bukti" class="form-label">Bukti </label>
+                <label for="bukti" class="form-label">Bukti</label>
                 <input type="file" class="form-control" name="bukti" required>
             </div>
 
@@ -122,7 +130,6 @@ include('header.php');
                 <input type="date" class="form-control" name="tarikh_tamat" required>
             </div>
 
-
             <div class="d-grid">
                 <button type="submit" name="mohon" class="btn btn-primary">Mohon Cuti</button>
             </div>
@@ -132,4 +139,3 @@ include('header.php');
 
 </body>
 </html>
-
