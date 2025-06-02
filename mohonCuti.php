@@ -69,6 +69,17 @@ include('header.php');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <div class="container my-5">
+
+
+<!-- Butang kembali di luar kotak dan ke kanan -->
+<div class="mb-3 text-end">
+    <a href="pelajar.php" class="btn btn-primary">Kembali</a>
+</div>
+
+<div class="card shadow p-4">
+    <h1 class="mb-4">Borang Permohonan Cuti</h1>
+    <!-- borang bermula di sini -->
+
     <header class="d-flex justify-content-between my-4">
         <h1>Borang Permohonan Cuti</h1>
         <div>
